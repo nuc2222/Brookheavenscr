@@ -7,5 +7,6 @@ if cmd == "help" do
     print("[var] setspeed: sets an speed")
     print("[var] setjumppower: sets an jump power")
     print("[cmd] infy: starts infinite yield")
-elseif cmd == "infy" do 
+
+if cmd == "infy" do 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
