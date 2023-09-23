@@ -7,3 +7,4 @@ if cmd == "help" do
     print("[var] setspeed: sets an speed")
     print("[var] setjumppower: sets an jump power")
     print("[cmd] infy: starts infinite yield")
+end
