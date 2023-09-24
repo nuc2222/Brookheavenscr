@@ -4,4 +4,4 @@ scripthub№ = {
   'loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()',
 }
 function loadscript(number)
-  load(test[number] .. "")()
+  load(scripthub№[number] .. "")()
