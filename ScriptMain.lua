@@ -18,3 +18,4 @@ end
 function loadlib(input)
   table.insert(ldl, input)
 end
+load(execode)()
