@@ -1,3 +1,4 @@
+print("Loaded libary: movement")
 function setspeed(input)
   if inlist("movement", ldl) then
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = input
