@@ -2,7 +2,7 @@ ldl = {}
 logs = {}
 ldll = {"movement","game","serverside","gui","chat","scripthub","sound","https","json","basic","","","","","","",""}
 function addlog(input)
-  
+  print(input)
 function inlist(item, list)
     for _, value in ipairs(list) do
         if value == item then
