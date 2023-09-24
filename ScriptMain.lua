@@ -14,16 +14,6 @@ end
 function giveitem(input)
   game:GetService("ReplicatedStorage").JK.TR["1Too1l"]:InvokeServer("PickingTools",input)
 end
-function setspeed(input)
-  if inlist("movement", ldl) then
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = input
-  end
-end
-function setjumppower(input)
-  if inlist("movement", ldl) then
-    game.Players.LocalPlayer.Character.Humanoid.JumpPower = input
-  end
-end
 function loadlib(input)
   table.insert(ldl, input)
 end
