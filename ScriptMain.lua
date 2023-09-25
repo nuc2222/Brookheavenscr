@@ -1,3 +1,4 @@
+input = ""
 ldl = {}
 logs = {}
 ldll = {"movement","game","serverside","gui","chat","scripthub","sound","https","json","basic","","","","","","",""}
